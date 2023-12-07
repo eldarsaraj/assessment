@@ -1,0 +1,52 @@
+.widget-box {
+    background-color: #F0F2F6; /* Light gray background */
+    padding: 20px; /* Inner spacing */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow */
+    text-align: center; /* Centered text */
+}
+
+.widget-content {
+    font-size: 16px; /* Larger font */
+    font-weight: italic; /* Bold text */
+}
+
+.text-box {
+    padding: 7px;
+    /*border: 2px solid #cfcfcf; 
+    border-radius: 5px; /* This will round the corners of the box */
+    background-color: #F0F2F6; /* This is a light grey background */
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* This will give a slight shadow effect */
+    margin-bottom: 10px; /* This will provide spacing below the box */
+    color: #505050
+}
+
+.custom-button {
+    border: 2px solid #F63366;
+    background-color: #F0F2F6;
+    color: #262730;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-button:hover {
+    background-color: #F63366;
+    color: white;
+}
+
+.main-section {
+    /* Style for main section buttons */
+    width: 100%;
+}
+
+.sub-section {
+    /* Style for subsection buttons. Add indentation here */
+    width: 90%;
+    margin-left: 10%;
+}
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+
+
